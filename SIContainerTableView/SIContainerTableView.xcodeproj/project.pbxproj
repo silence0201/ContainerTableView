@@ -15,6 +15,7 @@
 		E8D7F80C21D3C01200D22EE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D7F80B21D3C01200D22EE4 /* main.m */; };
 		E8D7F81621D3C13A00D22EE4 /* SIContainerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D7F81521D3C13A00D22EE4 /* SIContainerTableView.m */; };
 		E8FC6F6121E4DC1D00CE7E1A /* SIPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC6F6021E4DC1D00CE7E1A /* SIPageView.m */; };
+		E8FC6F6521E4E5FC00CE7E1A /* SISegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC6F6421E4E5FC00CE7E1A /* SISegmentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		E8D7F81521D3C13A00D22EE4 /* SIContainerTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIContainerTableView.m; sourceTree = "<group>"; };
 		E8FC6F5F21E4DC1D00CE7E1A /* SIPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIPageView.h; sourceTree = "<group>"; };
 		E8FC6F6021E4DC1D00CE7E1A /* SIPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIPageView.m; sourceTree = "<group>"; };
+		E8FC6F6321E4E5FC00CE7E1A /* SISegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SISegmentView.h; sourceTree = "<group>"; };
+		E8FC6F6421E4E5FC00CE7E1A /* SISegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SISegmentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		E8D7F81221D3C02700D22EE4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E8FC6F6221E4E5DE00CE7E1A /* SegmentView */,
 				E8FC6F5E21E4DC0100CE7E1A /* PageView */,
 				E8D7F81321D3C11200D22EE4 /* ContainerTableView */,
 			);
@@ -103,6 +107,15 @@
 				E8FC6F6021E4DC1D00CE7E1A /* SIPageView.m */,
 			);
 			path = PageView;
+			sourceTree = "<group>";
+		};
+		E8FC6F6221E4E5DE00CE7E1A /* SegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				E8FC6F6321E4E5FC00CE7E1A /* SISegmentView.h */,
+				E8FC6F6421E4E5FC00CE7E1A /* SISegmentView.m */,
+			);
+			path = SegmentView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +190,7 @@
 			files = (
 				E8D7F80121D3C01100D22EE4 /* ViewController.m in Sources */,
 				E8D7F80C21D3C01200D22EE4 /* main.m in Sources */,
+				E8FC6F6521E4E5FC00CE7E1A /* SISegmentView.m in Sources */,
 				E8FC6F6121E4DC1D00CE7E1A /* SIPageView.m in Sources */,
 				E8D7F7FE21D3C01100D22EE4 /* AppDelegate.m in Sources */,
 				E8D7F81621D3C13A00D22EE4 /* SIContainerTableView.m in Sources */,
