@@ -16,6 +16,7 @@
 		E8D7F81621D3C13A00D22EE4 /* SIContainerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D7F81521D3C13A00D22EE4 /* SIContainerTableView.m */; };
 		E8FC6F6121E4DC1D00CE7E1A /* SIPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC6F6021E4DC1D00CE7E1A /* SIPageView.m */; };
 		E8FC6F6521E4E5FC00CE7E1A /* SISegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC6F6421E4E5FC00CE7E1A /* SISegmentView.m */; };
+		E8FC6F6821E4F05500CE7E1A /* SITransparentNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC6F6721E4F05500CE7E1A /* SITransparentNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		E8FC6F6021E4DC1D00CE7E1A /* SIPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIPageView.m; sourceTree = "<group>"; };
 		E8FC6F6321E4E5FC00CE7E1A /* SISegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SISegmentView.h; sourceTree = "<group>"; };
 		E8FC6F6421E4E5FC00CE7E1A /* SISegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SISegmentView.m; sourceTree = "<group>"; };
+		E8FC6F6621E4F05500CE7E1A /* SITransparentNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SITransparentNavigationBar.h; sourceTree = "<group>"; };
+		E8FC6F6721E4F05500CE7E1A /* SITransparentNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SITransparentNavigationBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				E8D7F7FD21D3C01100D22EE4 /* AppDelegate.m */,
 				E8D7F7FF21D3C01100D22EE4 /* ViewController.h */,
 				E8D7F80021D3C01100D22EE4 /* ViewController.m */,
+				E8FC6F6621E4F05500CE7E1A /* SITransparentNavigationBar.h */,
+				E8FC6F6721E4F05500CE7E1A /* SITransparentNavigationBar.m */,
 				E8D7F80221D3C01100D22EE4 /* Main.storyboard */,
 				E8D7F80521D3C01200D22EE4 /* Assets.xcassets */,
 				E8D7F80721D3C01200D22EE4 /* LaunchScreen.storyboard */,
@@ -192,6 +197,7 @@
 				E8D7F80C21D3C01200D22EE4 /* main.m in Sources */,
 				E8FC6F6521E4E5FC00CE7E1A /* SISegmentView.m in Sources */,
 				E8FC6F6121E4DC1D00CE7E1A /* SIPageView.m in Sources */,
+				E8FC6F6821E4F05500CE7E1A /* SITransparentNavigationBar.m in Sources */,
 				E8D7F7FE21D3C01100D22EE4 /* AppDelegate.m in Sources */,
 				E8D7F81621D3C13A00D22EE4 /* SIContainerTableView.m in Sources */,
 			);

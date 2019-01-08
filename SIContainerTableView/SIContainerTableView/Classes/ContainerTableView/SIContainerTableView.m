@@ -122,6 +122,7 @@
     if (_segmentView == segmentView) return;
     _segmentView = segmentView;
     _segmentView.frame = CGRectMake(0, 0, CGRectGetWidth(self.bounds), CGRectGetHeight(_segmentView.frame));
+    [self resizeContentHeight];
     [_tableView reloadData];
 }
 
@@ -177,7 +178,7 @@
 
 - (void)resizeContentHeight {
     if (!_contentView) return;
-    CGFloat contentHeight = CGRectGetHeight(self.bounds) - CGRectGetHeight(self.headerView.bounds) - CGRectGetHeight(self.segmentView.bounds) - [self contentInsetBottom] - [self contentInsetTop] - [self footerViewHeight];
+    CGFloat contentHeight = CGRectGetHeight(self.bounds) -  CGRectGetHeight(self.segmentView.bounds) - [self contentInsetBottom] - [self contentInsetTop] - [self footerViewHeight];
     _contentView.frame = CGRectMake(0, 0, CGRectGetWidth(self.bounds), contentHeight);
 }
 
