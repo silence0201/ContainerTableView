@@ -14,6 +14,7 @@
 		E8D7F80921D3C01200D22EE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D7F80721D3C01200D22EE4 /* LaunchScreen.storyboard */; };
 		E8D7F80C21D3C01200D22EE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D7F80B21D3C01200D22EE4 /* main.m */; };
 		E8D7F81621D3C13A00D22EE4 /* SIContainerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D7F81521D3C13A00D22EE4 /* SIContainerTableView.m */; };
+		E8FC6F6121E4DC1D00CE7E1A /* SIPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC6F6021E4DC1D00CE7E1A /* SIPageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		E8D7F80B21D3C01200D22EE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8D7F81421D3C13A00D22EE4 /* SIContainerTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIContainerTableView.h; sourceTree = "<group>"; };
 		E8D7F81521D3C13A00D22EE4 /* SIContainerTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIContainerTableView.m; sourceTree = "<group>"; };
+		E8FC6F5F21E4DC1D00CE7E1A /* SIPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIPageView.h; sourceTree = "<group>"; };
+		E8FC6F6021E4DC1D00CE7E1A /* SIPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIPageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,7 @@
 		E8D7F81221D3C02700D22EE4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E8FC6F5E21E4DC0100CE7E1A /* PageView */,
 				E8D7F81321D3C11200D22EE4 /* ContainerTableView */,
 			);
 			path = Classes;
@@ -90,6 +94,15 @@
 				E8D7F81521D3C13A00D22EE4 /* SIContainerTableView.m */,
 			);
 			path = ContainerTableView;
+			sourceTree = "<group>";
+		};
+		E8FC6F5E21E4DC0100CE7E1A /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				E8FC6F5F21E4DC1D00CE7E1A /* SIPageView.h */,
+				E8FC6F6021E4DC1D00CE7E1A /* SIPageView.m */,
+			);
+			path = PageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +177,7 @@
 			files = (
 				E8D7F80121D3C01100D22EE4 /* ViewController.m in Sources */,
 				E8D7F80C21D3C01200D22EE4 /* main.m in Sources */,
+				E8FC6F6121E4DC1D00CE7E1A /* SIPageView.m in Sources */,
 				E8D7F7FE21D3C01100D22EE4 /* AppDelegate.m in Sources */,
 				E8D7F81621D3C13A00D22EE4 /* SIContainerTableView.m in Sources */,
 			);
